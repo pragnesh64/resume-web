@@ -1,0 +1,247 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.mainlogo{
+  /* border: 2px solid red; */
+  margin: 20px ;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* padding: 30px; */
+}
+
+header {
+
+  background-color: rgb(222, 222, 222);
+  padding: 14px;
+  
+}
+
+#left {
+  /* border: 2px solid red; */
+  /* display: inline-block;
+        margin-left: 50px;
+        left: 50px; */
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  display: flex;
+
+}
+
+#resumeimg {
+  width: 80px;
+  border-radius: 120px;
+  margin-left: 100px;
+  margin-top: -13px;
+}
+
+#mid {
+  /* border: 2px solid rgb(0, 0, 0); */
+  /* display: block;
+        margin: auto; */
+  display: block;
+  width: 43%;
+  margin: 0px auto;
+  /* position: fixed; */
+
+
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+
+}
+
+.navbar li a:hover {
+  color: rgb(32, 110, 162);
+}
+
+#mid ul li {
+  display: inline;
+  margin: 10px;
+
+}
+
+ul {
+  list-style-type: none;
+ 
+}
+
+#right {
+  /* border: 2px solid rgb(0, 0, 0); */
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 0px;
+  padding: 10px;
+}
+
+.btn {
+  border: 3px solid rgb(50, 70, 84);
+  padding: 10px;
+  margin: 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  font-size: 15px;
+
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(41, 115, 144);
+  color: white;
+}
+
+div p {
+  display: inline-block;
+
+}
+
+.dekhav {
+  background-color: rgb(191, 212, 216);
+}
+
+.text {
+  font-size: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 400px;
+  padding: 10px;
+}
+
+.resumeimg {
+  margin: 100px;
+  /* border: 3px solid yellow; */
+  border-radius: 50px;
+  width: 770px;
+  display: inline-block;
+  border: 2px solid white;
+
+  /* position: absolute; */
+
+}
+
+.btn1 {
+  display: inline-block;
+  position: absolute;
+  top: 690px;
+  right: 260px;
+  padding: 10px;
+  background-color: skyblue;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 25px;
+}
+
+.btn1:hover {
+  background-color: rgb(42, 88, 106);
+  color: white;
+  cursor: pointer;
+}
+
+.box {
+  /* border: 4px solid red; */
+  width: 500px;
+  padding: 30px;
+  margin-left: 150px;
+}
+
+.dekhav2 {
+  /* border: 4px solid red; */
+  display: inline-block;
+  position: absolute;
+  top: 949px;
+  right: 270px;
+  padding: 10px;
+}
+
+.businesswoman {
+  border-radius: 25px;
+  width: 90%;
+  margin-left: 80px;
+  border: 1px solid black;
+}
+
+.zentel {
+  /* border: 2px solid red; */
+  background-color: palegoldenrod;
+}
+
+.work {
+  background-color: palegoldenrod;
+  display: flex;
+  padding: 50px;
+}
+
+.exp {
+  /* background-color: red; */
+  width: 30%;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.pro {
+  /* border: 2px solid red; */
+  /* background-color: rgb(41, 146, 12); */
+  width: 70%;
+
+}
+
+.rdetail {
+  background-color: skyblue;
+}
+
+.rdetail h1 {
+  margin: 0px;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.rditel {
+  padding: 66px 0px 160px 260px;
+}
+
+.about h1{
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+padding: 50px;
+}
+
+.adetail{
+  background-color:rgb(255, 216, 216);
+  padding: 56px 140px 100px 260px;
+}
+
+.adetail img{
+  width: 600px;
+}
+
+.feedback{
+  margin: 0px;
+}
+
+.feedback h1{
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+padding: 50px;
+}
+
+.fdetail{
+  background-color: rgb(237, 180, 237);
+  padding:  56px 140px 100px 260px;
+}
